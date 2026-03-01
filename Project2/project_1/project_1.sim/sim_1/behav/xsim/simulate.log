@@ -1,4 +1,3 @@
 Vivado Simulator 2017.4
 Time resolution is 1 ps
-$finish called at time : 800 ns : File "C:/LogicLabProjects/Project2/project_1/project_1.srcs/sim_1/new/BCDsim.v" Line 51
-v" Line 52
+$finish called at time : 400 ns : File "C:/LogicLabProjects/Project2/project_1/project_1.srcs/sim_1/new/decodersim.v" Line 46

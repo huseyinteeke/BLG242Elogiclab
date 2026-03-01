@@ -22,33 +22,90 @@
 
 module BCDto7Segment(
     input wire [3:0] sw,
-    output reg [8:0] O
+    output reg [6:0] seg,
+    output reg dp,
+    output reg an
     );
     /**
-      reg[0] = anode
-      reg[1] = A
-      reg[2] = B
-      reg[3] = C
-      reg[4] = D
-      reg[5] = E
-      reg[6] = F
-      reg[7] = G
-      reg[8] = DP
+      an = anode
+      reg[0] = A
+      reg[1] = B
+      reg[2] = C
+      reg[3] = D
+      reg[4] = E
+      reg[5] = F
+      reg[6] = G
+      dp = DP
     **/
     always@(*)
     begin
         case(sw)
-        4'b0000 : O = 9'b110000001;
-        4'b0001 : O = 9'b111110011;
-        4'b0010 : O = 9'b10001001;
-        4'b0011 : O = 9'b101100001;
-        4'b0100 : O = 9'b100110011;
-        4'b0101 : O = 9'b100100101;
-        4'b0110 : O = 9'b100000101;
-        4'b0111 : O = 9'b111110001;
-        4'b1000 : O = 9'b111111111;
-        4'b1001 : O = 9'b111011111;
-        default : O = 9'b111111111;
+        4'b0000 : 
+        begin
+            an = 1;
+            dp = 1;
+            seg = 7'b100000;
+        end
+        4'b0001 : 
+        begin
+            an = 1;
+            dp = 1;
+            seg = 7'b1111001;
+        end 
+        4'b0010 : 
+        begin
+            an = 1;
+            dp = 1;
+            seg = 7'b0100100;
+        end 
+        4'b0011 : 
+        begin
+            an = 1;
+            dp = 1;
+            seg = 7'b0110000;
+        end
+        4'b0100 : 
+        begin
+            an = 1;
+            dp = 1;
+            seg = 7'b0011001;
+        end
+        4'b0101 : 
+        begin
+            an = 1;
+            dp = 1;
+            seg = 7'b1110010;
+        end
+        4'b0110 : 
+        begin
+            an = 1;
+            dp = 1;
+            seg = 7'b000010;
+        end
+        4'b0111 :
+        begin
+            an = 1;
+            dp = 1;
+            seg = 7'b1111000;
+        end
+        4'b1000 : 
+        begin
+            an = 1;
+            dp = 1;
+            seg = 7'b0000000;
+        end
+        4'b1001 : 
+        begin
+            an = 1;
+            dp = 1;
+            seg = 7'b0010000;
+        end
+        default :
+        begin
+            an = 1;
+            dp = 1;
+            seg = 7'b1111111;
+        end
         endcase
     end
 endmodule

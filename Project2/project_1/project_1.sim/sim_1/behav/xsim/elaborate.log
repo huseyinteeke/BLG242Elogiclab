@@ -1,13 +1,13 @@
 Vivado Simulator 2017.4
 Copyright 1986-1999, 2001-2016 Xilinx, Inc. All Rights Reserved.
-Running: C:/Xilinx/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto f964f4c72bd0407d9c11f4135e0e487e --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot priorityencodersim_behav xil_defaultlib.priorityencodersim xil_defaultlib.glbl -log elaborate.log 
+Running: C:/Xilinx/Vivado/2017.4/bin/unwrapped/win64.o/xelab.exe -wto f964f4c72bd0407d9c11f4135e0e487e --incr --debug typical --relax --mt 2 -L xil_defaultlib -L unisims_ver -L unimacro_ver -L secureip --snapshot decodersim_behav xil_defaultlib.decodersim xil_defaultlib.glbl -log elaborate.log 
 Using 2 slave threads.
 Starting static elaboration
 Completed static elaboration
 Starting simulation data flow analysis
 Completed simulation data flow analysis
 Time Resolution for simulation is 1ps
-Compiling module xil_defaultlib.priorityencoder
-Compiling module xil_defaultlib.priorityencodersim
+Compiling module xil_defaultlib.decoder
+Compiling module xil_defaultlib.decodersim
 Compiling module xil_defaultlib.glbl
-Built simulation snapshot priorityencodersim_behav
+Built simulation snapshot decodersim_behav

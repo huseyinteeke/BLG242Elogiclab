@@ -4,8 +4,10 @@ Dec 15 2017
 21:07:18
 C:/LogicLabProjects/Project2/project_1/project_1.sim/sim_1/behav/xsim/glbl.v,1513215259,verilog,,,,glbl,,,,,,,,
 C:/LogicLabProjects/Project2/project_1/project_1.srcs/sim_1/new/BCDsim.v,1772388667,verilog,,,,BCDsim,,,,,,,,
+C:/LogicLabProjects/Project2/project_1/project_1.srcs/sim_1/new/decodersim.v,1772398285,verilog,,,,decodersim,,,,,,,,
 C:/LogicLabProjects/Project2/project_1/project_1.srcs/sim_1/new/mutexsim.v,1772386130,verilog,,,,mutexsim,,,,,,,,
 C:/LogicLabProjects/Project2/project_1/project_1.srcs/sim_1/new/priorityencodersim.v,1772392887,verilog,,,,priorityencodersim,,,,,,,,
 C:/LogicLabProjects/Project2/project_1/project_1.srcs/sources_1/new/BCDto7Segment.v,1772388269,verilog,,C:/LogicLabProjects/Project2/project_1/project_1.srcs/sim_1/new/BCDsim.v,,BCDto7Segment,,,,,,,,
+C:/LogicLabProjects/Project2/project_1/project_1.srcs/sources_1/new/decoder.v,1772398110,verilog,,C:/LogicLabProjects/Project2/project_1/project_1.srcs/sim_1/new/decodersim.v,,decoder,,,,,,,,
 C:/LogicLabProjects/Project2/project_1/project_1.srcs/sources_1/new/mutex8to1.v,1772385953,verilog,,C:/LogicLabProjects/Project2/project_1/project_1.srcs/sim_1/new/mutexsim.v,,mutex8to1,,,,,,,,
 C:/LogicLabProjects/Project2/project_1/project_1.srcs/sources_1/new/priorityencoder.v,1772392633,verilog,,C:/LogicLabProjects/Project2/project_1/project_1.srcs/sim_1/new/priorityencodersim.v,,priorityencoder,,,,,,,,
