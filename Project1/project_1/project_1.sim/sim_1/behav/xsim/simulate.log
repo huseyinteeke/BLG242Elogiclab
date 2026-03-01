@@ -1,0 +1,36 @@
+Vivado Simulator 2017.4
+Time resolution is 1 ps
+Giris: 0000 | OUT: 1
+Giris: 0001 | OUT: 1
+Giris: 0010 | OUT: 0
+Giris: 0011 | OUT: 1
+Giris: 0100 | OUT: 0
+Giris: 0101 | OUT: 1
+Giris: 0110 | OUT: 0
+Giris: 0111 | OUT: 1
+Giris: 1000 | OUT: 1
+Giris: 1001 | OUT: 0
+Giris: 1010 | OUT: 0
+Giris: 1011 | OUT: 1
+Giris: 1100 | OUT: 1
+Giris: 1101 | OUT: 1
+Giris: 1110 | OUT: 0
+Giris: 1111 | OUT: 1
+$finish called at time : 160 ns : File "C:/LogicLabProjects/Project1/project_1/project_1.srcs/sim_1/new/assign_sim.v" Line 44
+Giris: 0000 | OUT: 1
+Giris: 0001 | OUT: 1
+Giris: 0010 | OUT: 0
+Giris: 0011 | OUT: 1
+Giris: 0100 | OUT: 0
+Giris: 0101 | OUT: 1
+Giris: 0110 | OUT: 0
+Giris: 0111 | OUT: 1
+Giris: 1000 | OUT: 1
+Giris: 1001 | OUT: 0
+Giris: 1010 | OUT: 0
+Giris: 1011 | OUT: 1
+Giris: 1100 | OUT: 1
+Giris: 1101 | OUT: 1
+Giris: 1110 | OUT: 0
+Giris: 1111 | OUT: 1
+$finish called at time : 160 ns : File "C:/LogicLabProjects/Project1/project_1/project_1.srcs/sim_1/new/assign_sim.v" Line 44

@@ -1,0 +1,10 @@
+0.6
+2017.4
+Dec 15 2017
+21:07:18
+C:/LogicLabProjects/Project1/project_1/project_1.sim/sim_1/behav/xsim/glbl.v,1513215259,verilog,,,,glbl,,,,,,,,
+C:/LogicLabProjects/Project1/project_1/project_1.srcs/sim_1/new/assign_sim.v,1772279521,verilog,,,,assign_sim,,,,,,,,
+C:/LogicLabProjects/Project1/project_1/project_1.srcs/sim_1/new/project_function_sim.v,1772278328,verilog,,,,project_function_sim,,,,,,,,
+C:/LogicLabProjects/Project1/project_1/project_1.srcs/sources_1/new/assign.v,1772279249,verilog,,C:/LogicLabProjects/Project1/project_1/project_1.srcs/sim_1/new/assign_sim.v,,assign_module,,,,,,,,
+C:/LogicLabProjects/Project1/project_1/project_1.srcs/sources_1/new/project_function.v,1772278179,verilog,,C:/LogicLabProjects/Project1/project_1/project_1.srcs/sources_1/new/simple_gates.v,,project_function,,,,,,,,
+C:/LogicLabProjects/Project1/project_1/project_1.srcs/sources_1/new/simple_gates.v,1772275461,verilog,,C:/LogicLabProjects/Project1/project_1/project_1.srcs/sim_1/new/project_function_sim.v,,my_and;my_not;my_or,,,,,,,,
