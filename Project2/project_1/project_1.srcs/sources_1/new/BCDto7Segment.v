@@ -74,7 +74,7 @@ module BCDto7Segment(
         begin
             an = 1;
             dp = 1;
-            seg = 7'b1110010;
+            seg = 7'b0010010;
         end
         4'b0110 : 
         begin

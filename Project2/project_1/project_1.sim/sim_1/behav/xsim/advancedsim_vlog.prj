@@ -1,0 +1,13 @@
+# compile verilog/system verilog design source files
+verilog xil_defaultlib  \
+"../../../../project_1.srcs/sources_1/new/BCDto7Segment.v" \
+"../../../../project_1.srcs/sources_1/new/advancedd_circuits.v" \
+"../../../../project_1.srcs/sources_1/new/decoder.v" \
+"../../../../project_1.srcs/sources_1/new/mutex8to1.v" \
+"../../../../project_1.srcs/sim_1/new/advancedsim.v" \
+
+# compile glbl module
+verilog xil_defaultlib "glbl.v"
+
+# Do not sort compile order
+nosort

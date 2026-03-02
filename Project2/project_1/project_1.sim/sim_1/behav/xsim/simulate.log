@@ -1,3 +1,4 @@
 Vivado Simulator 2017.4
 Time resolution is 1 ps
-$finish called at time : 400 ns : File "C:/LogicLabProjects/Project2/project_1/project_1.srcs/sim_1/new/decodersim.v" Line 46
+Simulasyon bitti, dalga formlarini (waves) kontrol et.
+$finish called at time : 150 ns : File "C:/LogicLabProjects/Project2/project_1/project_1.srcs/sim_1/new/advancedsim.v" Line 63
