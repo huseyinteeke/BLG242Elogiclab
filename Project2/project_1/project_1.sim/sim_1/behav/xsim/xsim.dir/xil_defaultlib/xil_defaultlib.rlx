@@ -8,7 +8,7 @@ C:/LogicLabProjects/Project2/project_1/project_1.srcs/sim_1/new/advancedsim.v,17
 C:/LogicLabProjects/Project2/project_1/project_1.srcs/sim_1/new/decodersim.v,1772398285,verilog,,,,decodersim,,,,,,,,
 C:/LogicLabProjects/Project2/project_1/project_1.srcs/sim_1/new/mutexsim.v,1772386130,verilog,,,,mutexsim,,,,,,,,
 C:/LogicLabProjects/Project2/project_1/project_1.srcs/sim_1/new/priorityencodersim.v,1772392887,verilog,,,,priorityencodersim,,,,,,,,
-C:/LogicLabProjects/Project2/project_1/project_1.srcs/sources_1/new/BCDto7Segment.v,1772402669,verilog,,C:/LogicLabProjects/Project2/project_1/project_1.srcs/sources_1/new/advancedd_circuits.v,,BCDto7Segment,,,,,,,,
+C:/LogicLabProjects/Project2/project_1/project_1.srcs/sources_1/new/BCDto7Segment.v,1772409749,verilog,,C:/LogicLabProjects/Project2/project_1/project_1.srcs/sources_1/new/advancedd_circuits.v,,BCDto7Segment,,,,,,,,
 C:/LogicLabProjects/Project2/project_1/project_1.srcs/sources_1/new/advancedd_circuits.v,1772405057,verilog,,C:/LogicLabProjects/Project2/project_1/project_1.srcs/sources_1/new/decoder.v,,advanced_circuits,,,,,,,,
 C:/LogicLabProjects/Project2/project_1/project_1.srcs/sources_1/new/decoder.v,1772398110,verilog,,C:/LogicLabProjects/Project2/project_1/project_1.srcs/sources_1/new/mutex8to1.v,,decoder,,,,,,,,
 C:/LogicLabProjects/Project2/project_1/project_1.srcs/sources_1/new/mutex8to1.v,1772399950,verilog,,C:/LogicLabProjects/Project2/project_1/project_1.srcs/sim_1/new/advancedsim.v,,mutex8to1,,,,,,,,

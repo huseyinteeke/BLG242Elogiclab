@@ -44,7 +44,7 @@ module BCDto7Segment(
         begin
             an = 1;
             dp = 1;
-            seg = 7'b100000;
+            seg = 7'b1000000;
         end
         4'b0001 : 
         begin
@@ -74,7 +74,7 @@ module BCDto7Segment(
         begin
             an = 1;
             dp = 1;
-            seg = 7'b0010010;
+            seg = 7'b0110000;
         end
         4'b0110 : 
         begin

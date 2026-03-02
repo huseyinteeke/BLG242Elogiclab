@@ -56,7 +56,7 @@ module decoder(
         begin
             LED = 8'h40;
         end        
-        else if(sw == 3'b111)
+        else
         begin
             LED = 8'h80;
         end   

@@ -1,0 +1,38 @@
+#-----------------------------------------------------------
+# Vivado v2017.4 (64-bit)
+# SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
+# IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
+# Start of session at: Mon Mar  2 12:39:00 2026
+# Process ID: 17044
+# Current directory: C:/LogicLabProjects/Project2/project_1
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent29468 C:\LogicLabProjects\Project2\project_1\project_1.xpr
+# Log file: C:/LogicLabProjects/Project2/project_1/vivado.log
+# Journal file: C:/LogicLabProjects/Project2/project_1\vivado.jou
+#-----------------------------------------------------------
+start_gui
+open_project C:/LogicLabProjects/Project2/project_1/project_1.xpr
+update_compile_order -fileset sources_1
+synth_design -rtl -name rtl_1
+close_design
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 10
+wait_on_run impl_1
+open_run impl_1
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 10
+wait_on_run impl_1
+open_hw
+close_hw
+close_design
+reset_run impl_1 -prev_step 
+launch_runs impl_1 -to_step write_bitstream -jobs 10
+wait_on_run impl_1
+synth_design -rtl -name rtl_1
+launch_simulation
+source advancedsim.tcl
+close_sim
+refresh_design
+close_design
+reset_run synth_1
+launch_runs impl_1 -to_step write_bitstream -jobs 10
+wait_on_run impl_1
