@@ -28,9 +28,9 @@ module mutexsim();
     wire OUT;
     
  mutex8to1 uut(
-    .I(I),
+    .sw(I),
     .FunSel(FunSel),
-    .OUT(OUT)
+    .LED(OUT)
  );
     
 initial begin 

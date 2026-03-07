@@ -2,10 +2,10 @@
 # Vivado v2017.4 (64-bit)
 # SW Build 2086221 on Fri Dec 15 20:55:39 MST 2017
 # IP Build 2085800 on Fri Dec 15 22:25:07 MST 2017
-# Start of session at: Mon Mar  2 12:39:00 2026
-# Process ID: 17044
+# Start of session at: Sat Mar  7 01:02:54 2026
+# Process ID: 5876
 # Current directory: C:/LogicLabProjects/Project2/project_1
-# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent29468 C:\LogicLabProjects\Project2\project_1\project_1.xpr
+# Command line: vivado.exe -gui_launcher_event rodinguilauncherevent18268 C:\LogicLabProjects\Project2\project_1\project_1.xpr
 # Log file: C:/LogicLabProjects/Project2/project_1/vivado.log
 # Journal file: C:/LogicLabProjects/Project2/project_1\vivado.jou
 #-----------------------------------------------------------
@@ -13,26 +13,74 @@ start_gui
 open_project C:/LogicLabProjects/Project2/project_1/project_1.xpr
 update_compile_order -fileset sources_1
 synth_design -rtl -name rtl_1
+write_schematic -format pdf -orientation portrait C:/Users/husey/OneDrive/Masast/schematic.pdf
+write_schematic -format pdf -orientation portrait C:/LogicLabProjects/Project2/schematic.pdf
+write_schematic C:/LogicLabProjects/Project2/schematic.png.sch
 close_design
-reset_run synth_1
-launch_runs impl_1 -to_step write_bitstream -jobs 10
-wait_on_run impl_1
-open_run impl_1
-reset_run synth_1
-launch_runs impl_1 -to_step write_bitstream -jobs 10
-wait_on_run impl_1
-open_hw
-close_hw
-close_design
-reset_run impl_1 -prev_step 
-launch_runs impl_1 -to_step write_bitstream -jobs 10
-wait_on_run impl_1
-synth_design -rtl -name rtl_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top decoder [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top decodersim [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
 launch_simulation
-source advancedsim.tcl
+source decodersim.tcl
 close_sim
-refresh_design
-close_design
-reset_run synth_1
-launch_runs impl_1 -to_step write_bitstream -jobs 10
-wait_on_run impl_1
+launch_simulation
+source decodersim.tcl
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top BCDto7Segment [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top BCDsim [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+close_sim
+launch_simulation
+launch_simulation
+launch_simulation
+source BCDsim.tcl
+close_sim
+launch_simulation
+source BCDsim.tcl
+close_sim
+launch_simulation
+source BCDsim.tcl
+close_sim
+launch_simulation
+source BCDsim.tcl
+close_sim
+launch_simulation
+source BCDsim.tcl
+close_sim
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top mutex8to1 [current_fileset]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sources_1
+# Disabling source management mode.  This is to allow the top design properties to be set without GUI intervention.
+set_property source_mgmt_mode None [current_project]
+set_property top mutexsim [get_filesets sim_1]
+set_property top_lib xil_defaultlib [get_filesets sim_1]
+# Re-enabling previously disabled source management mode.
+set_property source_mgmt_mode All [current_project]
+update_compile_order -fileset sim_1
+launch_simulation
+launch_simulation
+source mutexsim.tcl
+close_sim

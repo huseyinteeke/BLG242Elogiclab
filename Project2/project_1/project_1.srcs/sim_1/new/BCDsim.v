@@ -22,33 +22,40 @@
 
 module BCDsim();
 
-reg [3:0] I;
-wire [8:0] OUT;
-BCDto7Segment bcdundertest(
-    .SW(I),
-    .O(OUT)
-);
 
-initial begin
+    reg [3:0] I;
+    wire [6:0] SEGMENT;
+    wire dp; // Döngü için tam sayý deðiþkeni
+    wire an;
+    // Unit Under Test (UUT)
+    BCDto7Segment bcdundertest(
+        .sw(I),
+        .seg(SEGMENT),
+        .dp(dp),
+        .an(an)
+    );
 
-I = 4'b0000; #50;
-I = 4'b0001; #50;
-I = 4'b0010; #50;
-I = 4'b0011; #50;
-I = 4'b0100; #50;
-I = 4'b0101; #50;
-I = 4'b0110; #50;
-I = 4'b0111; #50;
-I = 4'b1000; #50;
-I = 4'b1001; #50;
-I = 4'b1010; #50;
-I = 4'b1011; #50;
-I = 4'b1100; #50;
-I = 4'b1101; #50;
-I = 4'b1110; #50;
-I = 4'b1111; #50;
+    initial begin
+        // 0'dan 15'e kadar tüm olasýlýklarý döngüyle dene
+        I = 4'b0000; #30;
+        I = 4'b0001; #30;
+        I = 4'b0010; #30;
+        I = 4'b0011; #30;
+        I = 4'b0100; #30;
+        I = 4'b0101; #30;
+        I = 4'b0110; #30;
+        I = 4'b0111; #30;
+        I = 4'b1000; #30;
+        I = 4'b1001; #30;
+        I = 4'b1010; #30;
+        I = 4'b1011; #30;
+        I = 4'b1100; #30;
+        I = 4'b1101; #30;
+        I = 4'b1111; #30;
 
-$finish;
-end
+    $finish;
+        $display("Simulation Finished.");
+        $finish;
+    end
 
 endmodule
