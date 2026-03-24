@@ -1,0 +1,9 @@
+0.6
+2017.4
+Dec 15 2017
+21:07:18
+C:/LogicLabProjects/Project3/project_3/project_3.sim/sim_1/behav/xsim/glbl.v,1513215259,verilog,,,,glbl,,,,,,,,
+C:/LogicLabProjects/Project3/project_3/project_3.srcs/sim_1/new/clock_generator.v,1773039224,verilog,,,,clock_generator,,,,,,,,
+C:/LogicLabProjects/Project3/project_3/project_3.srcs/sim_1/new/counter32bit.v,1773037242,verilog,,,,counter32bit,,,,,,,,
+C:/LogicLabProjects/Project3/project_3/project_3.srcs/sources_1/new/32bitCounter.v,1773036772,verilog,,C:/LogicLabProjects/Project3/project_3/project_3.srcs/sim_1/new/counter32bit.v,,bit32Counter,,,,,,,,
+C:/LogicLabProjects/Project3/project_3/project_3.srcs/sources_1/new/ClockGenerator.v,1773039542,verilog,,C:/LogicLabProjects/Project3/project_3/project_3.srcs/sim_1/new/clock_generator.v,,ClockGenerator,,,,,,,,
